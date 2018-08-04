@@ -2,7 +2,7 @@
 
 data
 ├── TOEIC
-    └── basic1000.txt
+   └── basic1000.txt
 ├── TOEFL
 ├── GEPT
 └── IELTS
