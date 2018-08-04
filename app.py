@@ -124,8 +124,8 @@ class App:
             self.push_notify(v)
 
     def push_notify(self, content):
-        print(content)
-        return True
+        # print(content)
+        # return True
         r = requests.post(self.line_notify_url,
                           headers=self.request_headers,
                           params={'message': content})
